@@ -1,0 +1,22 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+
+  .time{
+    background-color: #6495ED;
+    padding: 80px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    color: white;
+    font-size: 26px;
+
+    p{
+      margin: 0;
+    }
+  }
+}

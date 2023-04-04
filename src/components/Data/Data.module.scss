@@ -1,0 +1,23 @@
+p{
+  margin: 0;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container{
+    display: flex;
+    width: 50vw;
+    gap: 30px;
+    justify-content: center;
+
+    div{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
